@@ -1,0 +1,18 @@
+p {
+  font-size: 20px;
+}
+li {
+  text-decoration: underline;
+}
+.big-text{
+    font-size: 26px;
+}
+.red-color{
+    color: red;
+}
+.underline, li{
+    text-decoration: underline;
+}
+h1{
+    color: green;
+}
