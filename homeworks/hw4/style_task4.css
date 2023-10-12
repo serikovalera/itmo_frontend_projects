@@ -4,15 +4,18 @@ p {
 li {
   text-decoration: underline;
 }
-.big-text{
-    font-size: 26px;
+p,li{
+  font-weight: bold;
 }
-.red-color{
-    color: red;
+.small-text, li.last-child{
+  font-weight: normal;
 }
-.underline, li{
-    text-decoration: underline;
+.red{
+  color:red;
 }
 h1{
-    color: green;
+  color:green;
+}
+.red+p{
+  text-decoration: underline;
 }
